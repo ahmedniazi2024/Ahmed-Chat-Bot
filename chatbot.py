@@ -26,6 +26,7 @@ st.markdown("""
 
 FAQ_DATA = {
     # Basic general questions
+    "Hello": "Hi",
     "who made this chat bot": "This chatbot was created by Ahmed Niazi.",
     "what is your name": "I am a chatbot created by Ahmed Niazi.",
     "how are you": "I am doing great, thank you! How can I assist you today?",
