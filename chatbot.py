@@ -145,19 +145,23 @@ if st.button("Clear Chat"):
     st.session_state["messages"] = []
     st.rerun()
 
+import difflib
+
 def find_faq_answer(user_input):
     user_input_lower = user_input.lower().strip()
-    # Check exact or substring match in FAQ keys
+
+    # Try exact or substring match first
     for question, answer in FAQ_DATA.items():
         if question in user_input_lower or user_input_lower in question:
             return answer
+
+    # Use fuzzy matching if no exact match found
+    close_matches = difflib.get_close_matches(user_input_lower, FAQ_DATA.keys(), n=1, cutoff=0.7)
+    if close_matches:
+        return FAQ_DATA[close_matches[0]]
+
     return None
 
-def generate_response(user_input):
-    # Try to find FAQ answer first
-    faq_answer = find_faq_answer(user_input)
-    if faq_answer:
-        return faq_answer
 
     # Otherwise generate using DialoGPT
     new_input_ids = tokenizer.encode(user_input + tokenizer.eos_token, return_tensors='pt')
