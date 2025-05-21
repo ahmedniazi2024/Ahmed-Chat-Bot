@@ -18,7 +18,7 @@ st.markdown("""
             font-style: italic;
         }
     </style>
-    <div class='main-title'>🤖 Chat Bot</div>
+    <div class='main-title'>🤖Chat Bot</div>
     <div class='subtitle'>By Ahmed Niazi</div>
 """, unsafe_allow_html=True)
 
