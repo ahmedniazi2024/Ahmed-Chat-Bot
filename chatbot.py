@@ -140,10 +140,10 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
 # Clear chat button
+# Clear chat button
 if st.button("Clear Chat"):
     st.session_state["chat_history_ids"] = None
     st.session_state["messages"] = []
-    st.experimental_rerun()
 
 def find_faq_answer(user_input):
     user_input_lower = user_input.lower().strip()
