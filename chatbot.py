@@ -7,7 +7,7 @@ st.title("Chat Bot (By: Ahmed Niazi)")
 FAQ_DATA = {
     # Basic general questions
     "who made this chat bot": "This chatbot was created by Ahmed Niazi.",
-    "what is your name": "I am a chatbot powered by DialoGPT and an FAQ database.",
+    "what is your name": "I am a chatbot created by Ahmed Niazi.",
     "how are you": "I am doing great, thank you! How can I assist you today?",
     "what can you do": "I can answer your questions or chat with you freely.",
     "tell me a joke": "Why did the programmer quit his job? Because he didn't get arrays.",
@@ -105,6 +105,15 @@ FAQ_DATA = {
     "where does ahmed niazi live": "Ahmed Niazi lives in Bahawalpur, Pakistan.",
     "who created this chatbot": "This chatbot was created by Ahmed Niazi.",
     "how many years experience does ahmed niazi have": "Ahmed Niazi has over 4 years of web development experience.",
+    "tell me everything about ahmed niazi": "Ahmed Niazi is a highly skilled web developer and a passionate software engineering student at Islamia University Bahawalpur (IUB), currently in his 2nd semester. He has over 4 years of practical experience in web development and has worked with clients around the globe. Ahmed specializes in both front-end and back-end development. His technical expertise includes WordPress, Shopify, Wix, custom HTML/CSS/JS websites, React, PHP, Python, and Bootstrap. He is known for creating clean, responsive, and high-performing websites. Ahmed lives in Bahawalpur, Pakistan. He manages two major websites: codfellow.com, which is his professional business site offering services, and ahmedniazi.com, his personal portfolio showcasing his work. Ahmed also offers freelance web development services and has a strong presence in the digital tech space. He built this chatbot to help users with information and general queries, showing his interest in AI and conversational UX. He aims to become a top-tier software engineer and digital entrepreneur.",
+    
+    "does ahmed niazi build custom websites": "Yes, Ahmed Niazi builds fully custom-coded websites using HTML, CSS, JavaScript, PHP, React, and more.",
+    "does ahmed niazi work remotely": "Yes, Ahmed Niazi provides remote freelance web development services to clients globally.",
+    "how did ahmed niazi start web development": "Ahmed Niazi started web development over 4 years ago through self-learning, online tutorials, and hands-on projects before formally studying Software Engineering.",
+    "what is ahmed niazi's vision": "Ahmed Niazi aims to become a leading software engineer and tech entrepreneur, creating innovative digital solutions that solve real-world problems.",
+    "is ahmed niazi active on social media": "Ahmed Niazi maintains a professional online presence through his websites codfellow.com and ahmedniazi.com. Social media links may be available there.",
+    "what kind of clients does ahmed niazi work with": "Ahmed Niazi works with startups, businesses, entrepreneurs, and individuals looking for reliable and modern website solutions.",
+    "does ahmed niazi teach web development": "While he does not run official courses yet, Ahmed Niazi shares knowledge through blog posts and may offer mentorship in the future."
 }
 
 
