@@ -2,7 +2,26 @@ import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-st.title("Chat Bot (By: Ahmed Niazi)")
+st.markdown("""
+    <style>
+        .main-title {
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            color: #2E8B57;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 20px;
+            color: #555;
+            font-style: italic;
+        }
+    </style>
+    <div class='main-title'>🤖 Chat Bot</div>
+    <div class='subtitle'>By Ahmed Niazi</div>
+""", unsafe_allow_html=True)
+
 
 FAQ_DATA = {
     # Basic general questions
