@@ -5,14 +5,14 @@ import torch
 st.markdown("""
     <style>
         .main-title {
-            text-align: center;
+            
             font-size: 50px;
             font-weight: bold;
             color: #2E8B57;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .subtitle {
-            text-align: center;
+            
             font-size: 20px;
             color: #555;
             font-style: italic;
